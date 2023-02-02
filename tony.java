@@ -2,7 +2,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
-public class common_subsequence {
+public class tony {
     public static void main(String[] args) {
         try (Scanner scan = new Scanner(System.in)) {
             System.out.print("Text1: ");
