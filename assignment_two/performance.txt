@@ -1,0 +1,63 @@
+"C:\Program Files (x86)\Java\jdk-18.0.2\bin\java.exe" "-javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2022.2.2\lib\idea_rt.jar=52779:C:\Program Files\JetBrains\IntelliJ IDEA 2022.2.2\bin" -Dfile.encoding=UTF-8 -Dsun.stdout.encoding=UTF-8 -Dsun.stderr.encoding=UTF-8 -classpath "E:\Intellij Projects\assignment_two\out\production\assignment_two" Performance
+-------------------------
+Sorted 100 elements in 0.1176
+Sorted 500 elements in 0.22707
+Sorted 1000 elements in 0.41125
+Sorted 2000 elements in 1.5166
+Sorted 5000 elements in 8.03353
+Sorted 10000 elements in 32.15703
+Sorted 20000 elements in 213.47764
+Sorted 75000 elements in 4736.16884
+Sorted 150000 elements in 19516.472
+-------------------------
+Sorted 100 elements in 0.06925
+Sorted 500 elements in 0.12773
+Sorted 1000 elements in 0.23164
+Sorted 2000 elements in 0.23278
+Sorted 5000 elements in 1.24182
+Sorted 10000 elements in 4.96256
+Sorted 20000 elements in 20.42178
+Sorted 75000 elements in 289.53521
+Sorted 150000 elements in 1236.09684
+-------------------------
+Sorted 100 elements in 0.07383
+Sorted 500 elements in 0.17119
+Sorted 1000 elements in 0.22183
+Sorted 2000 elements in 0.69529
+Sorted 5000 elements in 4.06799
+Sorted 10000 elements in 15.82086
+Sorted 20000 elements in 63.3133
+Sorted 75000 elements in 840.12185
+Sorted 150000 elements in 3333.17471
+-------------------------
+Sorted 100 elements in 0.03103
+Sorted 500 elements in 0.09996
+Sorted 1000 elements in 0.05698
+Sorted 2000 elements in 0.10092
+Sorted 5000 elements in 0.22287
+Sorted 10000 elements in 0.47163
+Sorted 20000 elements in 0.99931
+Sorted 75000 elements in 3.85349
+Sorted 150000 elements in 8.26238
+-------------------------
+Sorted 100 elements in 0.03283
+Sorted 500 elements in 0.03041
+Sorted 1000 elements in 0.04844
+Sorted 2000 elements in 0.11029
+Sorted 5000 elements in 0.17773
+Sorted 10000 elements in 0.36743
+Sorted 20000 elements in 0.66778
+Sorted 75000 elements in 2.44554
+Sorted 150000 elements in 4.84165
+-------------------------
+Sorted 100 elements in 0.03319
+Sorted 500 elements in 0.04274
+Sorted 1000 elements in 0.08775
+Sorted 2000 elements in 0.21402
+Sorted 5000 elements in 0.30524
+Sorted 10000 elements in 0.65271
+Sorted 20000 elements in 1.43986
+Sorted 75000 elements in 5.77468
+Sorted 150000 elements in 9.90411
+
+Process finished with exit code 0
