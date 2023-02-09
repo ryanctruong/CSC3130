@@ -6,8 +6,8 @@ public class Performance {
                 new shell_sort(), new quick_sort(), new merge_sort()};
         int[] s = {100, 500, 1000, 2000, 5000, 10000, 20000, 75000, 150000};
 
-        for(sorting_algorithms methods : sa){
-            t = new Tester(methods);
+        for(sorting_algorithms algorithms : sa){
+            t = new Tester(algorithms);
             System.out.println("-------------------------");
             for(int size : s ){
                 System.out.print("Sorted " + size + " elements in ");
