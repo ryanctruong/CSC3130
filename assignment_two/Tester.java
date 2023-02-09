@@ -1,17 +1,18 @@
 import java.text.DecimalFormat;
 import java.util.Random;
 
-public class tester {
+public class Tester {
     public sorting_algorithms sorting;
-    public tester(sorting_algorithms sorting){
+
+    public Tester(sorting_algorithms sorting) {
         this.sorting = sorting;
     }
 
-    public double singleTest(int size){
+    public double singleTest(int size) {
         int[] c = new int[size];
         Random rand = new Random();
 
-        for(int i = 0; i < size; i++){
+        for (int i = 0; i < size; i++) {
             c[i] = rand.nextInt(100);
         }
 
@@ -22,9 +23,9 @@ public class tester {
         return (end_time - start_time) / 1000000.0;
     }
 
-    public void test(int iterations, int size){
+    public void test(int iterations, int size) {
         double time = 0;
-        for(int i = 0; i < iterations; i++){
+        for (int i = 0; i < iterations; i++) {
             time += singleTest(size);
         }
 
@@ -35,6 +36,7 @@ public class tester {
 
         System.out.println(at);
     }
+}
 
 //     public static void main(String[] args){
 //         System.out.println("----SINGLE TEST RUN----");
