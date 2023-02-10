@@ -1,0 +1,70 @@
+Bubble Sort
+	Sorted 100 elements in 0.13926
+	Sorted 500 elements in 0.26002
+	Sorted 1000 elements in 0.41232
+	Sorted 2000 elements in 1.37769
+	Sorted 5000 elements in 7.89108
+	Sorted 10000 elements in 32.64161
+	Sorted 20000 elements in 210.67955
+	Sorted 75000 elements in 4677.38852
+	Sorted 150000 elements in 18219.24656
+Insertion Sort
+	Sorted 100 elements in 0.06686
+	Sorted 500 elements in 0.13202
+	Sorted 1000 elements in 0.30581
+	Sorted 2000 elements in 0.22995
+	Sorted 5000 elements in 1.17196
+	Sorted 10000 elements in 4.46628
+	Sorted 20000 elements in 20.23529
+	Sorted 75000 elements in 286.78604
+	Sorted 150000 elements in 1149.86658
+Selection Sort
+	Sorted 100 elements in 0.07586
+	Sorted 500 elements in 0.16701
+	Sorted 1000 elements in 0.18527
+	Sorted 2000 elements in 0.5661
+	Sorted 5000 elements in 4.14858
+	Sorted 10000 elements in 15.43904
+	Sorted 20000 elements in 60.61558
+	Sorted 75000 elements in 824.26504
+	Sorted 150000 elements in 3304.63848
+Shell Sort
+	Sorted 100 elements in 0.03125
+	Sorted 500 elements in 0.09953
+	Sorted 1000 elements in 0.05826
+	Sorted 2000 elements in 0.11146
+	Sorted 5000 elements in 0.22569
+	Sorted 10000 elements in 0.46098
+	Sorted 20000 elements in 0.97591
+	Sorted 75000 elements in 3.7519
+	Sorted 150000 elements in 7.6265
+Quick Sort
+	Sorted 100 elements in 0.02501
+	Sorted 500 elements in 0.02292
+	Sorted 1000 elements in 0.04552
+	Sorted 2000 elements in 0.08572
+	Sorted 5000 elements in 0.17058
+	Sorted 10000 elements in 0.44256
+	Sorted 20000 elements in 0.62012
+	Sorted 75000 elements in 2.36937
+	Sorted 150000 elements in 4.74209
+Merge Sort
+	Sorted 100 elements in 0.02917
+	Sorted 500 elements in 0.04132
+	Sorted 1000 elements in 0.08946
+	Sorted 2000 elements in 0.18885
+	Sorted 5000 elements in 0.32325
+	Sorted 10000 elements in 0.67896
+	Sorted 20000 elements in 1.36986
+	Sorted 75000 elements in 5.60285
+	Sorted 150000 elements in 9.36727
+K Sort
+	Sorted 100 elements in 0.00316
+	Sorted 500 elements in 0.01637
+	Sorted 1000 elements in 0.03343
+	Sorted 2000 elements in 0.05927
+	Sorted 5000 elements in 0.01116
+	Sorted 10000 elements in 0.02176
+	Sorted 20000 elements in 0.05288
+	Sorted 75000 elements in 0.04495
+	Sorted 150000 elements in 0.07239
