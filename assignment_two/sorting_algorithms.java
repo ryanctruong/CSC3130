@@ -169,3 +169,16 @@ public interface sorting_algorithms {
             return input;
         }
     }
+
+    class k_sorted implements sorting_algorithms {
+        public int[] sort(int[] input) {
+            for (int i = 0, j = 10; j < input.length; i++, j++) {
+                if (input[i] > input[j]) {
+                    int temp = input[i];
+                    input[i] = input[j];
+                    input[j] = temp;
+                }
+            }
+            return input;
+        }
+    }
