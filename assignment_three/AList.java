@@ -24,7 +24,7 @@ public class AList {
     public void listRemove(int pos){
         Product[] newItems = new Product[size-1];
         for(int i = 0; i < newItems.length; i++){
-            if(i != pos){
+            if(i != pos-1){
                 newItems[i]= items[i];
             }
         }
@@ -33,12 +33,14 @@ public class AList {
     }
 
     public String toString(){
+        int i = 1;
         for (Product item : items) {
             if (item != null) {
-                System.out.println("Product Name: " + item.getProductName()
-                + ", Brand: " + item.getBrand() + ", Price: $" + item.getPrice());
+                System.out.println(i + " Product Name: " + item.getProductName()
+                        + ", Brand: " + item.getBrand() + ", Price: $" + item.getPrice());
             }
+            i++;
         }
-        return null;
+        return "";
     }
 }
