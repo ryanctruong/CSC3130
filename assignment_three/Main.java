@@ -7,9 +7,19 @@ public class Main {
         for(int i = 0; i < 20; i++){
             productList.listAdd(p);
         }
-        productList.listRemove(3);
+//        productList.listRemove(3);
+//        productList.toString();
 
-        productList.toString();
+        SLList list = new SLList();
+
+        list.listAdd(new Product("Orange", "Walmart", 2.99));
+        list.listAdd(new Product("Apple", "Kroger", 0.99));
+        list.listAdd(new Product("Banana","Target", 1.29));
+
+        list.listRemove(2);
+
+        list.printList();
+
 
     }
 }
